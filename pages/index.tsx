@@ -18,25 +18,14 @@ export default function Index({ allPosts }: Props) {
   const morePosts = allPosts.slice(1)
   return (
     <>
+      <Head>
+        <title>Forest Heims | Homepage</title>
+      </Head>
       <Layout>
         <Container>
           <Header />
           <Intro />
-          {heroPost && (
-            <HeroPost
-            title={heroPost.title}
-              coverImage={heroPost.coverImage}
-              date={heroPost.date}
-              author={heroPost.author}
-              slug={heroPost.slug}
-              excerpt={heroPost.excerpt}
-              />
-          )}
-          {morePosts.length > 0 && <MoreStories posts={morePosts} />}
         </Container>
-              <Head>
-                <title>{`Next.js Blog Example with ${CMS_NAME}`}</title>
-              </Head>
       </Layout>
     </>
   )

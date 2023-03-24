@@ -8,6 +8,7 @@ import Head from 'next/head'
 import { CMS_NAME } from '../lib/constants'
 import Post from '../interfaces/post'
 import Header from '../components/header'
+import PersonalBio from '../components/personal-bio'
 
 type Props = {
   allPosts: Post[]
@@ -25,6 +26,7 @@ export default function Index({ allPosts }: Props) {
         <Container>
           <Header />
           <Intro />
+          <PersonalBio />
         </Container>
       </Layout>
     </>

@@ -3,6 +3,11 @@ import Link from 'next/link'
 const Header = () => {
   return (
     <header className="flex row gap-4 justify-end">
+    {/* <h2 className="text-2xl md:text-2xl font-bold tracking-tight md:tracking-tighter leading-tight mb-20 mt-8">
+      Forest Heims
+    </h2>
+    <div className="flex row gap-4 justify-between"> */}
+
     <h2 className="text-2xl md:text-2xl font-bold tracking-tight md:tracking-tighter leading-tight mb-20 mt-8">
       <a href="https://forestheims.net/" className="hover:underline">
         Home
@@ -23,6 +28,7 @@ const Header = () => {
         Contact
       </a>
     </h2>
+    {/* </div> */}
     </header>
   )
 }

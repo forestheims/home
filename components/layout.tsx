@@ -15,9 +15,8 @@ const Layout = ({ preview, children }: Props) => {
       <div className="min-h-screen bg-gradient-to-b from-lime-200 to-pink-400">
         {/* <Alert preview={preview} /> */}
         <main>{children}</main>
-      </div>
-      <img className="sm:ml-16  container" src="/NeonHoneycombPeriodicTable-768x432.png" />
       <Footer />
+      </div>
     </>
   )
 }

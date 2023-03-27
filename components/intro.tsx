@@ -6,9 +6,9 @@ const Intro = () => {
       <h1 className="text-5xl md:text-8xl font-bold tracking-tighter leading-tight md:pr-8">
         Forest Heims
       </h1>
-      <h4 className="text-center md:text-left text-lg mt-5 md:pl-8">
+      <h3 className="text-center md:text-left text-lg mt-5 md:pl-8">
         Software Engineer & Chemist
-      </h4>
+      </h3>
     </section>
   )
 }

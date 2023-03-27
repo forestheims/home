@@ -24,7 +24,7 @@ const PersonalBio = ({ preview }: Props) => {
           <div className="flex row mb-16 place-self-center container justify-center flex-wrap">
             {techStack.map((tech) => {
               return (
-                <img className="m-4 h-16" key={tech} src={`./tech/${tech}.png`} />
+                <img className="m-4 h-16" key={tech} src={`./tech/${tech}.png`} alt={`${tech} logo, as a part of a visual display of my growing tech stack`} />
                 );
               })}
           </div>

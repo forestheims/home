@@ -9,7 +9,7 @@ const Footer = () => {
           {/* <h3 className="text-4xl lg:text-[2.5rem] font-bold tracking-tighter leading-tight text-center lg:text-left mb-10 lg:mb-0 lg:pr-4 lg:w-1/2">
             Thanks for passing by.
           </h3> */}
-                <img className="sm:ml-16" src="/NeonHoneycombPeriodicTable-768x432.png" />
+                <img className="sm:ml-16" src="/NeonHoneycombPeriodicTable-768x432.png" alt="Periodic table of elements with hexagonal tiles for each element and a rainbow color theme" />
 
           <div className="flex flex-col lg:flex-row justify-center items-center lg:pl-4 lg:w-1/2">
             <a

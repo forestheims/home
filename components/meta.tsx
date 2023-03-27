@@ -38,8 +38,8 @@ const Meta = () => {
         content="Home page for Forest Heims - Software Engineer & Chemist"
       />
       <meta property="og:image" content={HOME_OG_IMAGE_URL} />
-      <Script async defer src="https://analytics.umami.is/script.js" data-website-id="418b0070-dbc2-480f-a9de-b852adcf3de6" />
-    </Head>
+      <Script async defer data-website-id={process.env.DATA_WEBSITE_ID} src={process.env.UMAMI_SRC} />
+   </Head>
   )
 }
 

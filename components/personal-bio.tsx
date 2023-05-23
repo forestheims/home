@@ -30,7 +30,6 @@ const PersonalBio = ({ preview }: Props) => {
           </div>
           <div className="max-w-2xl mx-auto">
             <p className="mb-8">Hello, friend.</p>
-            <p className="mb-8">I am currently looking for a full time position as a software engineer, web developer, 3D generalist, 3D artist, game developer, DevSecOps engineer, or other computer programming role I haven't thought of yet.</p>
             <p className="mb-8">I am a thoughtful software engineer confident and competent in planning, building and deploying full stack applications. I am most fluent and familiar with deploying projects built with the PERN stack (PostgreSQL, Express, React, Node), but am highly adaptable to other OOP tech stacks.</p>
             <p className="mb-8">I am versed in and enjoy the creative and psychological aspects of UX/UI Design, as well as systematically writing, updating and debugging RESTful API's in a test driven fashion.</p>
             <p className="mb-8">Particular interests of mine include bioinformatics, psychology, 3D engineering, audio engineering, audio visualization, game development, Linux, cybersecurity, computational chemistry/biology, genetic algorithms, drug discovery, organic chemistry, psychopharmacology, psychonautics, and open source software and education.</p>
